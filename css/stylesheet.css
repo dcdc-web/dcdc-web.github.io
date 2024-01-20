@@ -1,0 +1,291 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Goblin+One');
+@import url('https://fonts.googleapis.com/css?family=Play:400,700');
+html    {
+    background-color: whitesmoke;
+}
+#header {
+    padding-top: 4%;
+    display:flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    position:relative;
+    margin:0 auto;
+    box-sizing:border-box;
+}
+#brand  {
+    float: left;
+    padding-top: 1%;
+    font-size: 1.75em;
+    font-family:'Russo One', sans-serif;
+    color:#00267b;
+}
+#calltoaction   {
+    background:url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30em;
+    position: relative;
+    font-family: 'Goblin One', cursive;
+    color:#FFFFFF;
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 10%;
+    -webkit-column-width: 25em;
+    -moz-column-width: 25em;
+    column-width: 25em;
+}
+.columnbackground   {
+    background-color:rgba(0, 0, 0, 0.69);
+    width: 50%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+}
+#hours  {
+    padding-top:1%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.boxtitle   {
+    color:#fff;
+    display:inline;
+    padding:0.5rem;
+    font-size:1.6em;
+    line-height:2em;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+}
+#featuredinfo   {
+    padding-top:1%;
+    padding-bottom:2%;
+    display:table;
+    max-width: 960px;
+    margin-left:auto; 
+    margin-right:auto;
+    align-content: center;
+}
+#padtop {
+    padding-top:10%;
+}
+.boxsubtext {
+    color:#fff;
+    display:inline;
+    padding:0.5rem;
+    font-size:.8em;
+    background-clip:border-box;
+    line-height:2.5em;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+}
+.infotitle  {
+    font-family:'Play', sans-serif;
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+}
+.info   {
+    display:inline-block;
+    text-align:center;
+    width:32%;
+    vertical-align:top;
+    height:7em;
+}
+.title  {
+    padding-top:1%;
+    line-height:50px;
+    font-weight:bold;
+    text-align:center;
+    font-size:24px;
+    font-family:'Play', sans-serif;
+}
+.profiletitle   {
+    padding:2%;
+    font-weight:bold;
+    text-align:center;
+    font-size:24px;
+    font-family:'Play', sans-serif;
+}
+.subtitle   {
+    padding-top:1%;
+    line-height:50px;
+    font-weight:bold;
+    text-align:center;
+    font-size:18px;
+    font-family:'Play', sans-serif;
+}
+.jobdesc    {
+    text-align:center;
+    color:#777777;
+    font-size:17spx;
+    font-family:'Play', sans-serif;
+}
+.minititle   {
+    padding-top:1%;
+    font-weight:bold;
+    text-align:center;
+    font-size:18px;
+    font-family:'Play', sans-serif;
+}
+.container  {
+    padding: 1em;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.aboutcontainer {
+    width:49%;
+    vertical-align:top;
+    height:400px;
+    display:inline-block;
+    text-align:center;
+    font-family:'Play', sans-serif;
+}
+.salescontainer {
+    width:47%;
+    padding-left: 1%;
+    padding-right: 1%;
+    vertical-align:top;
+    height:250px;
+    display:inline-table;
+    font-family:'Play', sans-serif;
+}
+.infocontainer  {
+    width:48%;
+    vertical-align:top;
+    height:250px;
+    display:table;
+    font-family:'Play', sans-serif;
+    float: left;
+}
+label   {
+    padding-right: 1.5em;
+    display: inline-block;
+    vertical-align: text-bottom;
+    
+}
+.contact    {
+    display: inline-block;
+    clear:both;
+    float: right;
+}
+input:invalid:focus{
+  color: red;
+}
+.profile    {
+    width:60%;
+    height:200px;
+    line-height:60px;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+.profilecontainer   {
+    width:49%;
+    vertical-align:top;
+    height:400px;
+    display:inline-table;
+    text-align:center;
+    font-family:'Play', sans-serif;
+}
+.productimg {
+    width:80%;
+    height:350px;
+}
+footer  {
+    padding-top: 4%;
+    clear: both;
+    text-align: center;
+}
+@media (min-width:746px)   {
+    #smallwarning   {
+        display:none;
+    }
+     .js #menu   {
+        display: none;
+    }
+    .js .slicknav_menu  {
+        display:none;
+    }
+    .slicknav_menu  {
+        display:none;
+    }
+    nav {
+        float: right;
+        text-align: center;
+        position: relative;
+        z-index: 10000;
+        padding-right: 1%
+    }
+    nav ul ul {
+	   display: none;
+    }
+    nav ul li:hover > ul {
+        display: block;
+    }
+    nav ul {
+        padding: 0 10px;
+	   border-radius: 10px;  
+        list-style: none;
+	   position: relative;
+        display: inline-table;
+    }
+    nav ul:after {
+        content: ""; clear: both; display: block;
+        }
+    nav ul li {
+        float: left;
+    }
+    nav ul li:hover {
+        background: #c6c6c6;
+    }
+    nav ul li:hover a {
+        color: #fff;
+    }		
+    nav ul li a {
+        display: block; 
+        padding: 1em 1em;
+	   color: #757575; 
+        text-decoration: none;
+    }			
+    nav ul ul {
+        background: #5f6975; 
+        border-radius: 0px; 
+        padding: 0;
+        position: absolute; 
+        top: 100%;
+    }
+    nav ul ul li {
+        float: none; 
+        border-top: 1px solid #6b727c;
+        border-bottom: 1px solid #575f6a; position: relative;
+    }
+    nav ul ul li a {
+        padding: 15px 40px;
+        color: #fff;
+    }	
+    nav ul ul li a:hover {
+    background: #4b545f;
+    }		
+    nav ul ul ul {
+    position: absolute; left: 100%; top:0;
+    }
+    
+}
+.show-menu  {
+    font-family:'Goblin One', cursive;
+    text-decoration:none;
+    color:#fff;
+    background:#004eff;
+    text-align:center;
+    padding:10px 0;
+    display:none;}
+input[type=checkbox]    {
+    display:none;
+    -webkit-appearance:none;
+}
+input[type=checkbox]:checked ~ #nav {
+    display:block;
+}

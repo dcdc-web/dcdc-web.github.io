@@ -1,0 +1,120 @@
+@import url('reset.css');
+@import url('slicknav.css') (min-width:150px) and (max-width:745px);
+@media (min-width:150px) and (max-width:745px)  {
+    #calltoaction   {
+        height: 20em;
+    }
+    .columnbackground   {
+        width: 100%;
+    }
+    #featuredinfo   {
+        display: table;
+    }
+    #header {
+        display: none;
+    }
+    #menu   {
+        display: none;
+    }
+    #brand  {
+        display: none;
+    }
+    nav {
+        position: relative;
+    }
+    #mobilemenu {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .slicknav_menu  {
+        display: table;
+        width: 100%;
+    }
+    .slicknav_menu li a {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    .slicknav_menu li:hover   {
+        background-color: #9b9b9b;
+    }
+    .boxtitle   {
+        color:#fff;
+        display:inline;
+        font-size:1.2em;
+        line-height:2em;
+        -webkit-box-decoration-break:clone;
+        box-decoration-break:clone;
+    }
+    #featuredinfo   {
+        padding-top:1%;
+        padding-bottom:2%;
+        display:table;
+        max-width: 960px;
+        margin-left:auto; 
+        margin-right:auto;
+        align-content: center;
+    }
+    #padtop {
+        padding-top:10%;
+    }
+    .boxsubtext {
+        color:#fff;
+        display:inline;
+        font-size:.6em;
+        background-clip:border-box;
+        -webkit-box-decoration-break:clone;
+        box-decoration-break:clone;
+    }
+    .infotitle  {
+        font-family:'Play', sans-serif;
+        text-align:center;
+        font-size:1em;
+        font-weight:bold;
+    }
+    .info   {
+        display:table-cell;
+        font-size: .7em
+        text-align:center;
+        width:32%;
+        vertical-align:top;
+        height:7em;
+    }
+    .slicknav_brand  {
+        float: left;
+        padding-top: 1%;
+        font-size: 1.5em;
+        font-family:'Russo One', sans-serif;
+    }
+    #smallwarning   {
+        display:none;
+    }
+}
+@media (max-width:149px)    {
+    #header {
+        display: none;
+    }
+    .slicknav_menu  {
+        display: none;
+    }
+    #mobilemenu {
+        display: none;
+    }
+    #calltoaction   {
+        display: none;
+    }
+    #featuredinfo   {
+        display: none;
+    }
+    .container  {
+        display:none;
+    }
+    #smallwarning   {
+        display: block;
+    }
+    footer  {
+        padding-top: 10%;
+    }
+}
